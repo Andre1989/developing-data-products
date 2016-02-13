@@ -18,7 +18,7 @@ The physical concepts describing the movement can be viewed in the pitch present
   - Maximum height
   - Landing position
   
-3. Some movement parameters are also displayed below the plot:
+3. Some parameters related with the projectile motion are also displayed below the plot:
   - Maximum height reached by the projectile 
   - Time to reach the maximum height
   - Total flying time
