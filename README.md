@@ -1,4 +1,6 @@
-# Interface to simulate the trajectory of a projectile neglecting air resistance
+# developing-data-products
+
+## Interface to simulate the trajectory of a projectile neglecting air resistance  ##
 
 Interface to simulate the trajectory of a projectile neglecting air resistance. 
 The physical concepts describing the movement can be viewed in the pitch presentation
