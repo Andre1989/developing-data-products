@@ -1,0 +1,17 @@
+{
+    "contents" : "Simulation of projectile trajectory neglecting air resistance\n========================================================\nauthor: André Amorim\ndate: `r format(Sys.Date(), format='%B, %d-%Y')`\n\nIntroduction\n========================================================\n\nAn easy interface to simulate the trajectory of a projectile was developed. It has the following features:\n\n- An input box for the user to specify some initial parameters.\n- A plot depicting the projectile trajectory.\n- A printing area displaying  some interesting parameters about the projectile movement.\n\n\n***\n![image](ptsc.png)\n\nBasic physics concepts about projectiles\n========================================================\n\nProjectile motion is a form of motion in which an object or particle (called a projectile) is thrown near the earth's surface, and it moves along a curved path under the action of gravity only. \n\n- Since the air resistance is neglected, the only force of significance that acts on the object is gravity, which acts downward to cause a downward acceleration. \n- Because of the object's inertia, no external horizontal force is needed to maintain the horizontal motion.\n\n\nMathematical formulas\n========================================================\nParametric equations:\n  - $x(t) = x_0 + v_0tcos(\\theta)$\n  - $y(t) = y_0 + v_0tsin(\\theta) - \\frac{1}{2}gt^2$\n  \nOptimal launching angle:\n  - $\\theta_{optimal} = arctan(\\frac{v_0^2}{sqrt(v_0^2+2gy_0)})$\n  \nMore information at:\n- https://en.wikipedia.org/wiki/Projectile_motion\n- http://math.stackexchange.com/questions/692179/finding-the-ideal-angle-for-the-maximum-range-of-a-projectile-when-elevated\n\nWhat the application does\n========================================================\n\nThe user sets some initial parameters:\n- Initial projectile velocity\n- Launching angle\n- Initial position and heigth\n\nThe application then plots the trajectory of the projectile and computes some parameters about the projectile movement:\n- Maximum height reached by the projectile and time to reach it\n- Total flying time\n- Distance run by the projectile and displacement from the initial position\n- Optimal launching angle",
+    "created" : 1455401009148.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3877994644",
+    "id" : "52D1FEE5",
+    "lastKnownWriteTime" : 1455401321,
+    "path" : "~/R/pitch/pitch.Rpres",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_presentation"
+}

@@ -1,26 +1,20 @@
-
-# This is the user-interface definition of a Shiny web application.
-# You can find out more about building applications with Shiny here:
-#
-# http://shiny.rstudio.com
-#
-
+# An application to simulate the trajectory of a thrown projectile, neglecting the resistance of the air
 library(shiny)
 
 shinyUI(fluidPage(
-
+  
   # Application title
   titlePanel("Parabolic trajectory"),
-
+  
   # Sidebar with a slider input for number of bins
   sidebarLayout(
     sidebarPanel(
       numericInput("x0",
-                  "Initial X position (m):",
-                  0,
-                  min = -3,
-                  max = 3,
-                  step = 0.1),
+                   "Initial X position (m):",
+                   0,
+                   min = -3,
+                   max = 3,
+                   step = 0.1),
       numericInput("y0",
                    "Initial Y position (m):",
                    0,
@@ -39,7 +33,7 @@ shinyUI(fluidPage(
                    max = 10,
                    step = 0.1)
     ),
-
+    
     # Show a plot of the generated distribution
     mainPanel(
       plotOutput("trajectoryPlot"),

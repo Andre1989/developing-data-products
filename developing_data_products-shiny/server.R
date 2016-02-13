@@ -10,14 +10,14 @@ shinyServer(function(input, output) {
   t    <- reactive({seq(0,tmax(),0.001)}) # Time array
   x    <- reactive({input$x0 + input$v0*t()*cos(input$teta*pi/180)}) # Horizontal position array
   y    <- reactive({input$y0 + input$v0*t()*sin(input$teta*pi/180) - 0.5*g()*t()^2}) # Vertical position array
-          
+  
   output$trajectoryPlot <- renderPlot({
     # Draw the trajectory plot
     plot(x(), y(), type = "l", main = "Trajectory plot", xlab="Distance traveled (m)", ylab="Heigth (m)", xlim=c(-3.1, 16), ylim=c(-3.1, 8.5), col = 'darkgray')
     points(c(x()[1], input$x0 + input$v0*th()*cos(input$teta*pi/180), tail(x(),1)), c(y()[1], hmax(), tail(y(),1)))
     lines(c(-4,17),y=c(0,0))
     lines(c(0,0),y=c(-4,10))
-
+    
   })
   # Display some parameters about he projectile movement
   output$hmax <- renderText(round(hmax(),2))
