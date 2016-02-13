@@ -2,11 +2,15 @@ Simulation of projectile trajectory neglecting air resistance
 ========================================================
 author: André Amorim
 date: `r format(Sys.Date(), format='%B, %d-%Y')`
+Application available at: https://andre1989.shinyapps.io/developing_data_products-shiny/
+Documentation available at: https://github.com/Andre1989/developing-data-products
 
 Introduction
 ========================================================
 
-An easy interface to simulate the trajectory of a projectile was developed. It has the following features:
+An easy interface to simulate the trajectory of a projectile was developed. 
+
+Features:
 
 - An input box for the user to specify some initial parameters.
 - A plot depicting the projectile trajectory.
