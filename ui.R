@@ -53,7 +53,7 @@ shinyUI(fluidPage(
       verbatimTextOutput("dmax"),
       h4("Time of flight (s):"),
       verbatimTextOutput("tmax"),
-      h4("Optimal launching angle (degrees):"),
+      h4("Optimal launching angle for maximum displacement (degrees):"),
       verbatimTextOutput("optimalteta")
     )
   )
