@@ -4,7 +4,7 @@
 
 Interface to simulate the trajectory of a projectile neglecting air resistance. 
 The physical concepts describing the movement can be viewed in the pitch presentation, which can be accessed here:
-http://rpubs.com/AndreAmorim89/152621
+http://rpubs.com/AndreAmorim89/152624
 
 **Instructions**:
 
