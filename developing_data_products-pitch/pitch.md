@@ -2,8 +2,11 @@ Simulation of projectile trajectory neglecting air resistance
 ========================================================
 author: André Amorim
 date: fevereiro, 13-2016
-Application available at: https://andre1989.shinyapps.io/developing_data_products-shiny/
-Documentation available at: https://github.com/Andre1989/developing-data-products
+Application available at: 
+https://andre1989.shinyapps.io/developing_data_products-shiny/
+
+Documentation available at: 
+https://github.com/Andre1989/developing-data-products
 
 Introduction
 ========================================================

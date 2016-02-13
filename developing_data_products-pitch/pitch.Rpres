@@ -2,8 +2,11 @@ Simulation of projectile trajectory neglecting air resistance
 ========================================================
 author: André Amorim
 date: `r format(Sys.Date(), format='%B, %d-%Y')`
-Application available at: https://andre1989.shinyapps.io/developing_data_products-shiny/
-Documentation available at: https://github.com/Andre1989/developing-data-products
+Application available at: 
+https://andre1989.shinyapps.io/developing_data_products-shiny/
+
+Documentation available at: 
+https://github.com/Andre1989/developing-data-products
 
 Introduction
 ========================================================
