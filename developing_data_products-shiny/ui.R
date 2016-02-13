@@ -4,7 +4,8 @@ library(shiny)
 shinyUI(fluidPage(
   
   # Application title
-  titlePanel("Parabolic trajectory"),
+  titlePanel("Simulation of the trajectory of a projectile, neglecting air resistance"),
+  p("User's guide and additional documentation available at https://github.com/Andre1989/developing-data-products"),
   
   # Sidebar with a slider input for number of bins
   sidebarLayout(
