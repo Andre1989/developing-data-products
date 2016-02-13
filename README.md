@@ -2,7 +2,8 @@
 
 ## Interface to simulate the trajectory of a projectile neglecting air resistance  ##
 
-Interface to simulate the trajectory of a projectile neglecting air resistance. 
+Interface to simulate the trajectory of a projectile neglecting air resistance. The application can be accessed here:
+https://andre1989.shinyapps.io/developing_data_products-shiny/
 The physical concepts describing the movement can be viewed in the pitch presentation, which can be accessed here:
 http://rpubs.com/AndreAmorim89/152624
 
