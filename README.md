@@ -1,9 +1,9 @@
-# developing-data-products
+# Interface to simulate the trajectory of a projectile neglecting air resistance
 
 Interface to simulate the trajectory of a projectile neglecting air resistance. 
 The physical concepts describing the movement can be viewed in the pitch presentation
 
-Instructions:
+h2(Instructions):
 
 1. The user sets the initial parameters:
   - Initial launching position
