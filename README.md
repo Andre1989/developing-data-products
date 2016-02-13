@@ -5,7 +5,7 @@ The physical concepts describing the movement can be viewed in the pitch present
 
 **Instructions**:
 
-1. The user sets the initial parameters:
+1. The user sets the initial parameters in the input boxes located on the left:
   - Initial launching position
   - Initial launching height
   - Initial projectile velocity
